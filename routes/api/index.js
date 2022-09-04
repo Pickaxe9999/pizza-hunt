@@ -4,6 +4,6 @@ const commentRoutes = require('./comment-routes');
 
 
 router.use('/pizzas', pizzaRoutes);
-router.use('comments', commentRoutes);
+router.use('/comments', commentRoutes);
 
 module.exports = router;
